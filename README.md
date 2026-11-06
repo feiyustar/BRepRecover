@@ -1,6 +1,6 @@
 # BRepRecover
 
-**Status: planning and prototype only; not a usable or validated release.**
+**Status: public MIT-licensed code-only prototype (2026-11-06); not a complete or validated implementation.**
 
 BRepRecover studies a failure-only recovery wrapper for direct B-rep generation. The intended workflow leaves generator outputs that pass existing acceptance checks unchanged, uses explicit boundary evidence to prioritize recovery attempts, separates candidate-level evidence from a whole-shape decision, and accepts an alternative only after independent CAD-kernel and STEP validation. A mature Gmsh/OpenCASCADE healing backend is an execution component, not a new healing algorithm.
 
@@ -10,7 +10,7 @@ The paper reports a wrapper-level gain on evaluated cohorts. It does not establi
 
 This directory contains an installable prototype for frozen candidate/shape scoring architectures, a versioned tensor-evidence input, connected hierarchical selection, and failure-only recovery decision contracts. Its CLI validates configured external artifact paths. An optional pythonocc adapter can validate a supplied shape and perform STEP round-trip checks, but is not a recovery backend. There is still no end-to-end generation, online CAD feature extraction, or Gmsh/OCC healing implementation. A valid config does not imply those components can be run.
 
-The project has selected the MIT License for the authorized BRepRecover project code as of 2026-11-06. This does not license datasets, derived data, weights, third-party dependencies, or excluded upstream-derived source. Provenance and redistribution-rights review for included extracted behavior remains pending, so this prototype is not public-release-ready and is not a reproducible implementation of the paper. See [docs/source_audit.md](docs/source_audit.md) and [docs/release_plan.md](docs/release_plan.md).
+The code-only prototype is public at [github.com/feiyustar/BRepRecover](https://github.com/feiyustar/BRepRecover) under the MIT License selected for authorized BRepRecover project code. This is not the complete paper implementation or a reproduction package. The repository does not include datasets, derived data, experiment records, feature caches, or weights. The MIT license does not cover those materials, third-party dependencies, or excluded upstream-derived source. Provenance and redistribution-rights review for included extracted behavior remains pending; public availability and maintainer approval are not a comprehensive rights audit. See [docs/source_audit.md](docs/source_audit.md) and [docs/release_plan.md](docs/release_plan.md).
 
 ## Data and Weights
 

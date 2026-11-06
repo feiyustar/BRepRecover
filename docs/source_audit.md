@@ -17,6 +17,7 @@ This is a targeted review of the local research tree, local DTGBrepGen-base comp
 
 ### Progress recorded 2026-11-06
 
+- The BRepRecover code-only prototype was made public at https://github.com/feiyustar/BRepRecover under the selected MIT license, with maintainer approval on 2026-11-06. This records repository publication, not an independent legal or provenance audit. Included extracted-behavior provenance and redistribution-rights review remains pending; excluded baseline-derived files, third-party dependencies, data, derived data, and weights are not covered by this publication or license selection.
 - MIT was selected for authorized BRepRecover project code, and the root `LICENSE` records `Copyright (c) 2026 BRepRecover contributors`. `pyproject.toml` points package metadata to that file.
 - This selection does not assert that upstream DTGBrepGen, baseline-derived files, datasets, derived data, model weights, or dependencies are covered by this license. `inference/generate.py` and `inference/brepBuild.py` remain excluded from the portable prototype and this selection does not clear their provenance or redistribution rights.
 - Provenance and rights review for the included extracted behaviors remains pending. The MIT file does not make the current candidate publicly release-ready or establish full-paper reproduction rights.
