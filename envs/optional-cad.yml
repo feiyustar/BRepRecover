@@ -1,0 +1,6 @@
+name: breprecover-optional-cad
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.13
+  - pythonocc-core=7.5.1

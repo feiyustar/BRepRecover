@@ -1,0 +1,13 @@
+{
+  "artifacts": {
+    "generator_checkpoint": "../external-artifacts/generator.pt",
+    "candidate_router_checkpoint": "../external-artifacts/candidate-router.pt",
+    "shape_selector_checkpoint": "../external-artifacts/shape-selector.pt",
+    "feature_runtime_checkpoint": "../external-artifacts/feature-runtime.pt",
+    "feature_runtime_config": "../external-artifacts/feature-runtime.json",
+    "shape_policy_metadata": "../external-artifacts/shape-policy.json"
+  },
+  "policy": {
+    "shape_threshold": 0.561
+  }
+}

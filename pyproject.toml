@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "breprecover"
+version = "0.0.1"
+description = "Prototype selection and failure-only B-rep recovery interfaces"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.0"]
+
+[project.optional-dependencies]
+test = ["numpy", "pytest"]
+
+[project.scripts]
+breprecover = "breprecover.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

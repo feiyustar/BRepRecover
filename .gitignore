@@ -1,0 +1,41 @@
+# Local data, feature shards, and generated CAD
+data/
+datasets/
+features/
+feature_cache/
+captures/
+outputs/
+results/
+*.step
+*.stp
+*.stl
+*.brep
+*.npz
+*.npy
+*.jsonl.gz
+
+# Model weights and training state
+weights/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.tensorboard
+wandb/
+runs/
+
+# Python and local environment
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
